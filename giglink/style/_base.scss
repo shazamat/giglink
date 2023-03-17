@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+    color: black;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    background-color: #f8f8fb;
+    height: 100%;
+    line-height: 1;
+}
+
+[class*="__container"] {
+    max-width: 900px;
+    margin: 0 auto;
+}
+/* ================ horizontal line ================ */
+
+.horizontal-line {
+    width: 850px;
+    height: 3px;
+    margin-left: 24px;
+    color: #9B9B9C;
+    border: 1px solid #F1F1F1;
+}
+
+
+/* ================ horizontal line ================ */
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
