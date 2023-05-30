@@ -271,6 +271,46 @@ body {
   text-transform: uppercase;
 }
 
+/*  Telegram Link   */
+.telegram {
+  margin: 30px 30px;
+}
+
+.telegram-link__container {
+  width: 100%;
+  height: 150px;
+  background-image: url("../Images/telegramback.jpg");
+}
+
+.telegram-title {
+  width: 313px;
+  height: 150px;
+  padding-left: 22px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  background: #000000;
+}
+
+.telegram-title p {
+  text-align: center;
+  color: #fff;
+}
+
+.telegram-title button {
+  width: 109px;
+  height: 36px;
+  border-radius: 100px;
+  border: 2px solid #FFFFFF;
+}
+
+.telegram-title button a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "Manrope", sans-serif;
+}
+
 /* ================ Footer ================ */
 footer {
   width: 100%;
