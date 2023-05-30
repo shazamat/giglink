@@ -306,4 +306,13 @@ footer {
 .social__list {
   gap: 15px;
   display: flex;
+}
+
+.copyright * {
+  padding-left: 67px;
+  padding-top: 125px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9EAAFF;
 }/*# sourceMappingURL=style.css.map */
