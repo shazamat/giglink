@@ -242,4 +242,68 @@ footer {
   height: 389px;
   margin-top: 45px;
   background-color: #051ED6;
+}
+
+.row {
+  margin-top: 50px;
+  display: flex;
+}
+
+.footer_menu {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.footer__link, .footer__title {
+  color: #fff;
+}
+
+.footer__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.short__news {
+  display: flex;
+  gap: 35px;
+}
+
+.design {
+  color: #fff;
+  padding-top: 130px;
+}
+
+.design * {
+  color: #fff;
+}
+
+.design h3 a {
+  text-decoration: underline;
+}
+
+.footer-col ul:last-child {
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+.footer-col ul:last-child h3 {
+  color: #fff;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 1px;
+  text-align: center;
+  border-radius: 100%;
+  border: 1px solid #D9D9D9;
+}
+
+.social__list {
+  gap: 15px;
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
