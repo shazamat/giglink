@@ -1,4 +1,3 @@
-/* ================ Core ================ */
 *,
 *::after,
 *::before {
@@ -60,6 +59,7 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
+/* ================ Core ================ */
 .wrapper {
   overflow: hidden;
   display: flex;
