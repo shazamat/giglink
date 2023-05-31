@@ -1,3 +1,24 @@
+/* ================ smartphones, portrait iPhone, portrait 480x320 phones (Android)  ================ */
+/* ================ smartphones, Android phones, landscape iPhone ================ */
+/* ================ portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) ================ */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .main__container {
+    background-color: #ffffff;
+  }
+  .get__started {
+    height: 620px;
+    margin-top: 32px;
+    margin-left: 10px;
+    border-radius: 18px;
+    border: 3px solid #EFF0F3;
+    background: #FFFFFF;
+  }
+  .get-started-1 {
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+  }
+}
 *,
 *::after,
 *::before {
@@ -121,6 +142,7 @@ body {
 .get-started-1 {
   padding: 25px 25px;
   display: flex;
+  flex-direction: column;
 }
 
 /* ================ get-started-tags ================ */
